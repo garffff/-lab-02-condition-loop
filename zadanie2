@@ -15,7 +15,7 @@ int main()
     if (pa.first == pb.first || pa.second == pb.second || (abs(pa.first - pb.first) == abs(pa.second - pb.second))) cout << "queen threatens" << endl;
     else cout << "queen does not threaten" << endl;
     if (pa.first == pb.first && (pb.second - pa.second == 1)) cout << "pawn can move" << endl;
-    else cout << "pawn cant move";
+    else cout << "pawn cant move" << endl;
     if (abs(pa.first - pb.first) == 1 && (pb.second - pa.second == 1)) cout << "pawn threatens" << endl;
     else cout << "pawn does not threaten" << endl;
 
